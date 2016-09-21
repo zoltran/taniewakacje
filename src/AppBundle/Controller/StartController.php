@@ -11,7 +11,6 @@ namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
 
 
 class StartController extends Controller
@@ -21,8 +20,10 @@ class StartController extends Controller
      */
     public function indexAction()
     {
+        $jola = 'jak się miewacie? ';
         return $this->render('base.html.twig', array(
-            'marek' => 'super fajnie jest'
+            'marek' => $jola,
+            'michal' => 'testowo'
         ));
     }
 

@@ -30,7 +30,10 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "symfony/asset": "^3.1",
         "symfony/form": "^3.1",
-        "symfony/templating": "^3.1"
+        "symfony/templating": "^3.1",
+        "twig/twig": "^1.24",
+        "symfony/yaml": "^3.1",
+        "twbs/bootstrap": "^3.3"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
