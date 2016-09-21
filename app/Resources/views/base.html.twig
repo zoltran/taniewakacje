@@ -4,11 +4,12 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Strona główna{% endblock %}</title>
         {% block stylesheets %}
-            {#<link rel="stylesheet" href="{{ asset('bootstrap/dist/css/bootstrap-theme.min.css') }}">#}
             <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
             <link rel="stylesheet" href="{{ asset('bootstrap/dist/css/bootstrap.min.css') }}">
             <link rel="stylesheet" href="{{ asset('css/grayscale.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('css/full-slider.css') }}">
+
             <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
             <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -27,7 +28,7 @@
                             Menu <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand page-scroll" href="#page-top">
-                            <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                            <i class="fa fa-play-circle"></i> <span class="light">Tanie Wakacje</span>_Info
                         </a>
                     </div>
 
@@ -39,13 +40,13 @@
                                 <a href="#page-top"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#about">About</a>
+                                <a class="page-scroll" href="#about">O nas</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#download">Download</a>
+                                <a class="page-scroll" href="#download">Oferta</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#contact">Contact</a>
+                                <a class="page-scroll" href="#contact">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -55,22 +56,66 @@
             </nav>
 
             <!-- Intro Header -->
-            <header class="intro">
-                <div class="intro-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <h1 class="brand-heading">Grayscale</h1>
-                                <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                                    <br>Created by Start Bootstrap.</p>
-                                <a href="#about" class="btn btn-circle page-scroll">
-                                    <i class="fa fa-angle-double-down animated"></i>
-                                </a>
-                            </div>
+
+            <header id="myCarousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#1" data-slide-to="0" class="active"></li>
+                    <li data-target="#2" data-slide-to="1"></li>
+                    <li data-target="#3" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for Slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- Set the first background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url({{ asset('img/droga1.jpg') }});"></div>
+                        <div class="carousel-caption">
+                            <h2>Caption 1</h2>
                         </div>
                     </div>
+                    <div class="item">
+                        <!-- Set the second background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url({{ asset('img/gory1.jpg') }});"></div>
+                        <div class="carousel-caption">
+                            <h2>Caption 2</h2>
+                        </div>
+                    </div>
+                    {#<div class="item">#}
+                        {#<!-- Set the third background image using inline CSS below. -->#}
+                        {#<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>#}
+                        {#<div class="carousel-caption">#}
+                            {#<h2>Caption 3</h2>#}
+                        {#</div>#}
+                    {#</div>#}
                 </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+
             </header>
+
+            {#<header class="intro">#}
+                {#<div class="intro-body">#}
+                    {#<div class="container">#}
+                        {#<div class="row">#}
+                            {#<div class="col-md-8 col-md-offset-2">#}
+                                {#<h1 class="brand-heading">Grayscale</h1>#}
+                                {#<p class="intro-text">A free, responsive, one page Bootstrap theme.#}
+                                    {#<br>Created by Start Bootstrap.</p>#}
+                                {#<a href="#about" class="btn btn-circle page-scroll">#}
+                                    {#<i class="fa fa-angle-double-down animated"></i>#}
+                                {#</a>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</header>#}
 
             <!-- About Section -->
             <section id="about" class="container content-section text-center">
@@ -124,25 +169,13 @@
             <div id="map"> </div>
 
 
-                <script>
-                function initMap() {
-                    var mapDiv = document.getElementById('map');
-                    var map = new google.maps.Map(mapDiv, {
-                        center: {lat: 52.070, lng: 19.459},
-                        zoom: 6
-                    });
-                }
-                </script>
 
-            <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnv5VW1NHrLF7VQ94I_r5KiPMx4mdedWA&callback=initMap">
-            </script>
 
 
             <!-- Footer -->
             <footer>
                 <div class="container text-center">
-                    <p>Copyright &copy; Your Website 2016</p>
+                    <p>Copyright &copy;TanieWakacje.info</p>
                 </div>
             </footer>
 
@@ -160,11 +193,30 @@
         {% endblock %}
         {% block javascripts %}
             <script src="{{ asset('js/grayscale.min.js') }}"></script>
+            <script src="{{ asset('js/jquery.js') }}"></script>
             <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
             <script src="{{ asset('vendor/jquery/jquery.js') }}"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-            {#<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnv5VW1NHrLF7VQ94I_r5KiPMx4mdedWA&sensor=false"></script>#}
 
+            <script>
+                function initMap() {
+                    var mapDiv = document.getElementById('map');
+                    var map = new google.maps.Map(mapDiv, {
+                        center: {lat: 52.070, lng: 19.459},
+                        zoom: 6
+                    });
+                }
+            </script>
+
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnv5VW1NHrLF7VQ94I_r5KiPMx4mdedWA&callback=initMap">
+            </script>
+
+            <script>
+                $('.carousel').carousel({
+                    interval: 2000 //changes the speed
+                })
+            </script>
         {% endblock %}
     </body>
 </html>
