@@ -101,7 +101,7 @@
                 {#</a>#}
 
             {#</header>#}
-
+            {% block body %}
             <header class="intro">
                 <div class="intro-body">
                     <div class="container">
@@ -131,7 +131,7 @@
 
                 {#</div>#}
             {#</section>#}
-            {% block body %}
+
             <!-- About Section -->
             <section id="O_nas" class="container content-section text-center">
                 <div class="row">
@@ -210,13 +210,9 @@
                     </div>
                 </div>
             </section>
-
+            {% endblock %}
             <!-- Map Section -->
             <div id="map"> </div>
-
-
-
-
 
             <!-- Footer -->
             <footer>
@@ -236,7 +232,7 @@
 
 
 
-        {% endblock %}
+
         {% block javascripts %}
             <script src="{{ asset('js/grayscale.min.js') }}"></script>
             <script src="{{ asset('js/jquery.js') }}"></script>

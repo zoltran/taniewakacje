@@ -153,6 +153,42 @@ a:focus {
     font-size: 26px;
   }
 }
+.intro1 {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/mini_tlo.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro1 .intro1-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro1 .intro1-body .brand1-heading {
+  font-size: 40px;
+}
+.intro1 .intro1-body .intro1-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro1 {
+    height: 50%;
+    padding: 0;
+  }
+  .intro1 .intro1-body .brand1-heading {
+    font-size: 100px;
+  }
+  .intro1 .intro1-body .intro1-text {
+    font-size: 26px;
+  }
+}
 .btn-circle {
   width: 70px;
   height: 70px;
