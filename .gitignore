@@ -19,3 +19,9 @@
 .*
 *.*~
 *.dist
+.idea/
+/.idea/
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
