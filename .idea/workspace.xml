@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa86990-db2e-4898-9977-ee29870490b8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/AppCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/AppKernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/Resources/views/base.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/Resources/views/default/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/config_dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/config_prod.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/config_test.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/parameters.yml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/routing_dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/security.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/app/config/services.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/bin/console" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/bin/symfony_requirements" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/src/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/src/AppBundle/AppBundle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/src/AppBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/var/SymfonyRequirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/var/cache/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/var/logs/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/var/sessions/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/app_dev.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taniewakacje_info/web/robots.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/taniewakacje_info.iml" afterPath="$PROJECT_DIR$/.idea/taniewakacje_info.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
     </list>
     <ignored path="taniewakacje_info.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +31,11 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1710">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="607">
+              <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
               <folding>
-                <marker date="1474629318332" expanded="false" signature="3772:3824" ph="..." />
-                <marker date="1474629318332" expanded="false" signature="4198:4249" ph="..." />
+                <marker date="1474630210456" expanded="false" signature="3772:3824" ph="..." />
+                <marker date="1474630210456" expanded="false" signature="4198:4249" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,7 +98,12 @@
       <find>intro-body</find>
       <find>ser</find>
       <find>o n</find>
+      <find>.idea</find>
+      <find>workspace</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -237,6 +204,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taniewakacje_info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="taniewakacje_info" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -330,12 +307,12 @@
       <workItem from="1474445567524" duration="5736000" />
       <workItem from="1474480334442" duration="6569000" />
       <workItem from="1474546930629" duration="9125000" />
-      <workItem from="1474629248488" duration="261000" />
+      <workItem from="1474629248488" duration="1035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21691000" />
+    <option name="totallyTimeSpent" value="22465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -345,6 +322,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.49811321" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -355,7 +333,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970026" sideWeight="0.49811321" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -376,8 +353,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474629318332" expanded="false" signature="3772:3824" ph="..." />
-            <marker date="1474629318332" expanded="false" signature="4198:4249" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="3772:3824" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="4198:4249" ph="..." />
           </folding>
         </state>
       </provider>
@@ -436,6 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,8 +436,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474629318332" expanded="false" signature="3772:3824" ph="..." />
-            <marker date="1474629318332" expanded="false" signature="4198:4249" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="3772:3824" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="4198:4249" ph="..." />
           </folding>
         </state>
       </provider>
@@ -482,6 +460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,6 +488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,6 +521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -668,11 +649,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="607">
+          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding>
-            <marker date="1474629318332" expanded="false" signature="3772:3824" ph="..." />
-            <marker date="1474629318332" expanded="false" signature="4198:4249" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="3772:3824" ph="..." />
+            <marker date="1474630210456" expanded="false" signature="4198:4249" ph="..." />
           </folding>
         </state>
       </provider>
