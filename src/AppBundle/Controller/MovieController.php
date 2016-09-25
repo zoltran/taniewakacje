@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Movie;
+use AppBundle\Form\MovieType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
@@ -10,12 +11,17 @@ use Symfony\Component\HttpFoundation\Response;
 class MovieController extends Controller
 {
     /**
-     * @Route("/kontakt/form", name="formContact", )
+     * @Route("/kontakt/form", name="formContact")
      */
-    public function indexAction($name)
+    public function indexAction()
     {
         $movie= new Movie();
-        return $this->render(' default:index.html.twig', array('name' => $name));
+        
+        $form= $this->createForm(MovieType::class, $movie);
+
+        return $this->render('page/contact.html.twig', array(
+            'form' => $form->createView()
+        ));
     }
 
     /**
@@ -23,6 +29,6 @@ class MovieController extends Controller
      */
     public function listAction()
     {
-        return new Response('test')
+        return new Response('test');
     }
 }
