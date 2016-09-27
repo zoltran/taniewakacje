@@ -36,7 +36,8 @@
         "twbs/bootstrap": "^3.3",
         "symfony/finder": "^3.1",
         "symfony/event-dispatcher": "^3.1",
-        "symfony/intl": "^3.1"
+        "symfony/intl": "^3.1",
+        "symfony/doctrine-bridge": "^3.1"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

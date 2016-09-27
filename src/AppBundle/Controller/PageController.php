@@ -22,13 +22,6 @@ class PageController extends Controller
         return $this->render('page/ofert.html.twig');
     }
 
-    /**
-     * @Route("/kontakt", name="contactPage")
-     */
-    public function contactActive()
-    {
-        return $this->render('page/contact.html.twig');
-    }
 
     /**
      * @Route("/onas", name="aboutPage")

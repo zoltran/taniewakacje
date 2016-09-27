@@ -6,19 +6,20 @@ use AppBundle\Entity\Movie;
 use AppBundle\Form\MovieType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
 
 class MovieController extends Controller
 {
     /**
-     * @Route("/kontakt/form", name="formContact")
+     * @Route("/kontakt", name="movies_new")
      */
-    public function indexAction(\Symfony\Component\HttpFoundation\Request $request)
+    public function formAction(Request $request)
     {
         $movie= new Movie();
 
         $form= $this->createForm(MovieType::class, $movie);
         $form->handleRequest($request);
+
         if ($form->isValid()) {
 
             $em = $this->getDoctrine()->getManager();
@@ -27,22 +28,23 @@ class MovieController extends Controller
 
             $this->addFlash('success', 'Udało się wysłać wiadomość');
 
-            return $this->redirectToRoute('formList', array());
+            return $this->redirectToRoute('movies_new', array());
         }
 
         return $this->render('page/contact.html.twig', array(
+            'quote' => 'jest super',
             'form' => $form->createView()
         ));
     }
 
     /**
-     * @Route( "/kontakt/formularz", name="formList")
+     * @Route( "/kontakt/formularz", name="movies_list")
      */
-    public function listAction()
-    {
+    public function listAction()    {
+
         $em = $this->getDoctrine()->getManager();
         $movies= $em->getRepository('AppBundle:Movie')
-            ->findAll();
+        ->findAll();
 
         return $this->render('movie/list.html.twig', array(
             'movies' => $movies
