@@ -24,6 +24,7 @@ class MovieController extends Controller
 
             $em = $this->getDoctrine()->getManager();
             $em->persist($movie);
+            
             $em->flush();
 
             $this->addFlash('success', 'Udało się wysłać wiadomość');
