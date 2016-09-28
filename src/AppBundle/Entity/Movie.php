@@ -39,9 +39,6 @@ class Movie
          */
     private $messageUser;
 
-    /**
-     * @ORM\Column(type="date", nullable=true)
-     */private $date;
 
     /**
      * @ORM\Column(type="string")
@@ -103,21 +100,6 @@ class Movie
         $this->messageUser = $messageUser;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getDate()
-    {
-        return $this->date;
-    }
-
-    /**
-     * @param mixed $date
-     */
-    public function setDate($date)
-    {
-        $this->date = $date;
-    }
 
     /**
      * @return mixed

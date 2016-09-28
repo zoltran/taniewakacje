@@ -20,13 +20,10 @@ class MovieController extends Controller
         $form= $this->createForm(MovieType::class, $movie);
         $form->handleRequest($request);
 
-        if ($form->isValid()) {
-
+        if (($form->isSubmitted()) && ($form->isValid())) {
 
             $em = $this->getDoctrine()->getManager();
-
             $em->persist($movie);
-
             $em->flush();
 
 
@@ -36,7 +33,7 @@ class MovieController extends Controller
         }
 
         return $this->render('page/contact.html.twig', array(
-            'quote' => 'jest super',
+
             'form' => $form->createView()
         ));
     }
