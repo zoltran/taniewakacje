@@ -2,3 +2,9 @@
     width: 100%;
     height: 490px;
 }
+
+.page_scroll1{
+    position: static;
+    margin-bottom: auto;
+    margin-left: 48%;
+}
