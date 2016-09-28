@@ -22,10 +22,13 @@ class MovieController extends Controller
 
         if ($form->isValid()) {
 
+
             $em = $this->getDoctrine()->getManager();
+
             $em->persist($movie);
-            
+
             $em->flush();
+
 
             $this->addFlash('success', 'Udało się wysłać wiadomość');
 
