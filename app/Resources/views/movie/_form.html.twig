@@ -1,20 +1,22 @@
-<div class="form-group">
-
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
 
         {{ form_start(form) }}
-    {{ form_row(form.name) }}
-    {{ form_row(form.surname) }}
-    {{ form_row(form.subject) }}
 
-    {{ form_row(form.messageUser) }}
-
-
-
+        {{ form_row(form.name) }}
+        {{ form_row(form.surname) }}
+        {{ form_row(form.subject) }}
+        {{ form_row(form.messageUser) }}
+    </div>
+                            <div></div>
         <button type="submit" class="btn-lg btn-default">Wyślij</button>
-
-
-    {{ form_end(form) }}
-
+        {{ form_end(form) }}
+<div>
 </div>
     <a href="{{ path('movies_list') }}">Powrót do listy</a>
 
