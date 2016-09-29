@@ -60,30 +60,44 @@
 
             <!-- Intro Header -->
 
-            {#<header id="myCarousel" class="carousel slide">#}
-                {#<!-- Indicators -->#}
-                {#<ol class="carousel-indicators">#}
-                    {#<li data-target="#1" data-slide-to="0" class="active"></li>#}
-                    {#<li data-target="#2" data-slide-to="1"></li>#}
+            <header id="myCarousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#1" data-slide-to="0" class="active"></li>
+                    <li data-target="#2" data-slide-to="1"></li>
                     {#<li data-target="#3" data-slide-to="2"></li>#}
-                {#</ol>#}
+                </ol>
 
-                {#<!-- Wrapper for Slides -->#}
-                {#<div class="carousel-inner">#}
-                    {#<div class="item active">#}
-                        {#<!-- Set the first background image using inline CSS below. -->#}
-                        {#<div class="fill" style="background-image:url({{ asset('img/droga1.jpg') }});"></div>#}
-                        {#<div class="carousel-caption">#}
-                            {#<h2>Caption 1</h2>#}
-                        {#</div>#}
-                    {#</div>#}
-                    {#<div class="item">#}
-                        {#<!-- Set the second background image using inline CSS below. -->#}
-                        {#<div class="fill" style="background-image:url({{ asset('img/gory1.jpg') }});"></div>#}
-                        {#<div class="carousel-caption">#}
-                            {#<h2>Caption 2</h2>#}
-                        {#</div>#}
-                    {#</div>#}
+                <!-- Wrapper for Slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- Set the first background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url({{ asset('img/monitor-1356061_1920.jpg') }});"></div>
+                        <div class="carousel-caption">
+                            <h2>Serwis i usługi sprzętów komputerowych</h2>
+                            <div class="page_scroll1">
+                                <br>
+                                <a href="#O_nas" class="btn btn-circle page-scroll">
+                                    <i class="fa fa-angle-double-down animated"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <!-- Set the second background image using inline CSS below. -->
+                        <div class="fill" style="background-image:url({{ asset('img/monitor-1356061_1920.jpg') }});"></div>
+                        <div class="carousel-caption">
+                            <h2>Montaż anten satelitarnych i naziemnych DVB-T</h2>
+                            <div class="page_scroll1">
+                                <br>
+                                <a href="#O_nas" class="btn btn-circle page-scroll">
+                                    <i class="fa fa-angle-double-down animated"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
                     {#<div class="item">#}
                         {#<!-- Set the third background image using inline CSS below. -->#}
                         {#<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>#}
@@ -91,34 +105,34 @@
                             {#<h2>Caption 3</h2>#}
                         {#</div>#}
                     {#</div>#}
-                {#</div>#}
-
-                {#<!-- Controls -->#}
-                {#<a class="left carousel-control" href="#myCarousel" data-slide="prev">#}
-                    {#<span class="icon-prev"></span>#}
-                {#</a>#}
-                {#<a class="right carousel-control" href="#myCarousel" data-slide="next">#}
-                    {#<span class="icon-next"></span>#}
-                {#</a>#}
-
-            {#</header>#}
-
-            <header class="intro">
-                <div class="intro-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <h3 class="brand-heading">Problem z komputerem?</h3>
-                                <p class="intro-text">
-                                <p>Pomożemy</p>
-                                <a href="#O_nas" class="btn btn-circle page-scroll">
-                                    <i class="fa fa-angle-double-down animated"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+
             </header>
+
+            {#<header class="intro">#}
+                {#<div class="intro-body">#}
+                    {#<div class="container">#}
+                        {#<div class="row">#}
+                            {#<div class="col-md-8 col-md-offset-2">#}
+                                {#<h3 class="brand-heading">Problem z komputerem?</h3>#}
+                                {#<p class="intro-text">#}
+                                {#<p>Pomożemy</p>#}
+                                {#<a href="#O_nas" class="btn btn-circle page-scroll">#}
+                                    {#<i class="fa fa-angle-double-down animated"></i>#}
+                                {#</a>#}
+                            {#</div>#}
+                        {#</div>#}
+                    {#</div>#}
+                {#</div>#}
+            {#</header>#}
             <!-- Table Section -->
             {#<section id="table" class="container content-section text-center">#}
                 {#<div class="row">#}
@@ -144,7 +158,7 @@
                         <a href="#Oferta" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
-                    <br><br><br><br><br><br><br><br><br>
+
                     </div>
                 </div>
             </section>
@@ -154,7 +168,7 @@
                 <div class="download-section">
                     <div class="container">
                         <h2 class="text-center">Nasza oferta:</h2>
-                        <div class="col-lg-4 col-lg-offset-1">
+                        <div class="col-sm-4 col-sm-offset-1">
                             <h3>Usługi informatyczne:</h3>
                             <ul>
                                 <li>diagnostyka i naprawa komputerów, laptopów</li>
@@ -169,7 +183,7 @@
                             </ul>
 
                        </div>
-                        <div class="col-lg-4 col-lg-offset-2">
+                        <div class="col-sm-4 col-sm-offset-2">
                             <h3>RTV-SAT:</h3>
 
                             <ul>
@@ -181,7 +195,7 @@
 
                         </div>
                     </div>
-                        <div class="page_scroll1">
+                        <div class="page_scroll2">
                         <br>
                         <a href="#Kontakt" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -195,39 +209,36 @@
 
             <!-- Contact Section -->
             <section id="Kontakt" class="container content-section text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Kontakt do nas</h2>
-                        <p>F.H.U. IT-SERVICE Marcin Bębenek</p>
-                        <p>Poręba Żegoty ul. Szembeków 38<br>
-                           32-566 Alwernia<br>
-                           tel. 788-112-291<br>
-                            <a href="mailto:serwis.uslugi@gmail.com">serwis.uslugi@gmail.com</a></p>                        </ul>
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2>Kontakt do nas</h2>
+                <p>F.H.U. IT-SERVICE Marcin Bębenek</p>
+                <p>Poręba Żegoty ul. Szembeków 38<br>
+                    32-566 Alwernia<br>
+                    tel. 788-112-291<br>
+                    <a href="mailto:serwis.uslugi@gmail.com">serwis.uslugi@gmail.com</a></p>                        </ul>
 
 
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="https://www.facebook.com/It-Service-1010323129082242/?pnref=story" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            {#<li>#}
-                                {#<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>#}
-                            {#</li>#}
-                            {#<li>#}
-                                {#<a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>#}
-                            {#</li>#}
-                        </ul>
-                        <a href="#map" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/It-Service-1010323129082242/?pnref=story" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                    {#<li>#}
+                    {#<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>#}
+                    {#</li>#}
+                    {#<li>#}
+                    {#<a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>#}
+                    {#</li>#}
+                </ul>
+            </div>
+                        <div id="map"> </div>
+
 
 
 
             </section>
 
             <!-- Map Section -->
-            <div id="map"> </div>
+
 
 
 

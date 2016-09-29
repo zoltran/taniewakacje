@@ -6,5 +6,11 @@
 .page_scroll1{
     position: static;
     margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.page_scroll2{
+    position: static;
+    margin-bottom: auto;
     margin-left: 48%;
 }
