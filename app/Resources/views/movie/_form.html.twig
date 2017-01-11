@@ -1,22 +1,55 @@
-<div class="form-group">
+{#<div class="container">#}
+{#<div class="form-group">#}
+    {#<div class="col-lg-7">#}
 
 
-        {{ form_start(form) }}
-    {{ form_row(form.name) }}
-    {{ form_row(form.surname) }}
-    {{ form_row(form.subject) }}
+        {#{{ form_start(form) }}#}
+    {#<div class="col-md-3">#}
+    {#{{ form_row(form.name) }}#}
+    {#{{ form_row(form.surname) }}#}
+    {#</div>#}
+    {#{{ form_row(form.subject) }}#}
 
-    {{ form_row(form.messageUser) }}
-
-
-
-        <button type="submit" class="btn-lg btn-default">Wyślij</button>
+    {#{{ form_row(form.messageUser) }}#}
 
 
-    {{ form_end(form) }}
 
+        {#<button type="submit" class="btn-lg btn-default">Wyślij</button>#}
+
+
+    {#{{ form_end(form) }}#}
+    {#</div>#}
+{#</div>#}
+    {#<a href="{{ path('movies_list') }}">Powrót do listy</a>#}
+{#</div>#}
+
+
+<div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">Kontakt</h2>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>Jesteśmy dostępni 7 dni w tygodniu, 24 godziny na dobę</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> Alwernia PL</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +48 698308253</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> biuro@etesting.pl</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <form action="3admin/form.php" method="POST">
+                        <input class="form-control" id="name" name="name" placeholder="Imie" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Adres e-mail" type="email" required>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Tekst wiadomości" rows="5"></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" type="submit">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-    <a href="{{ path('movies_list') }}">Powrót do listy</a>
-
-
-

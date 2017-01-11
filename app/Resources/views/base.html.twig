@@ -257,7 +257,9 @@ window.onload = function() {
     var opcje = {
         zoom: 16, // dość blisko
         center: {lat: 50.059251,lng: 19.564317},
-        streetViewControl: false
+        streetViewControl: false,
+        scrollwheel:false,
+        draggable:false
     };
     var naszaMapa = new google.maps.Map(div, opcje);
     // dodajemy marker

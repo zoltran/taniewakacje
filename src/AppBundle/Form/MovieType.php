@@ -15,8 +15,8 @@ class MovieType extends AbstractType
             ->add('surname')
             ->add('subject')
             ->add('messageUser', TextareaType::class, array(
-                'attr' => array('class' => 'col-lg-6'),
-                'label' => 'Wiadomość'
+                'attr' => array('class' => 'container'),
+                'label' => 'Wiadomość',
             ))
 
 
